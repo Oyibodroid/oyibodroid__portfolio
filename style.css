@@ -1,0 +1,57 @@
+:root {
+    --dark-bg: #23262D;
+    --main-color1: #1612CB;
+    --main-color2: #36368E;
+    --main-color3: #5380FF;
+    --main-color4: #73D6ED;
+    --main-color5: red;
+    --white: #F5F5F7;
+}
+
+body {
+    background: var(--dark-bg);
+    color: var(--white);
+    font-family: 'Afacad', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+#logo code,
+/* span {
+    color: var(--main-color4);
+} */
+
+h1 {
+    font-weight: 700;
+}
+
+.header-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact {
+    background-color: var(--main-color4);
+}
+
+hr {
+    height: 3px;
+    border: none;
+    opacity: 1;
+    background-color: var(--main-color4);
+}
+
+#about {
+    margin: 10rem 0;
+}
+
+.front-description {
+    max-width: 35vw;
+}
