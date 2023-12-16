@@ -24,9 +24,9 @@ a {
 }
 
 #logo code,
-/* span {
+span {
     color: var(--main-color4);
-} */
+}
 
 h1 {
     font-weight: 700;
@@ -41,6 +41,11 @@ h1 {
     background-color: var(--main-color4);
 }
 
+.btn{
+    outline: none;
+    border: none;
+}
+
 hr {
     height: 3px;
     border: none;
@@ -49,9 +54,23 @@ hr {
 }
 
 #about {
-    margin: 10rem 0;
+    margin: 5rem 0;
 }
 
-.front-description {
-    max-width: 35vw;
+#updates{
+    margin-bottom: 3rem;
+}
+
+.carousel-item{
+    height: 20rem;
+    text-align: center;
+}
+
+.carousel-item img{
+    width: 100%;
+    object-fit: cover;
+}
+
+p{
+    line-height: 1.5;
 }
